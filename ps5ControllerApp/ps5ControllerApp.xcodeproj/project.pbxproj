@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3218D74263F18780036341A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3218D73263F18780036341A /* AppDelegate.swift */; };
+		B3218D76263F18780036341A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3218D75263F18780036341A /* SceneDelegate.swift */; };
+		B3218D78263F18780036341A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3218D77263F18780036341A /* ViewController.swift */; };
+		B3218D7B263F18780036341A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3218D79263F18780036341A /* Main.storyboard */; };
+		B3218D7D263F18790036341A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3218D7C263F18790036341A /* Assets.xcassets */; };
+		B3218D80263F18790036341A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3218D7E263F18790036341A /* LaunchScreen.storyboard */; };
+		B3DFE3BA264031F60011F38B /* ControllerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFE3B8264031F60011F38B /* ControllerCollectionViewCell.swift */; };
+		B3DFE3BB264031F60011F38B /* ControllerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DFE3B9264031F60011F38B /* ControllerCollectionViewCell.xib */; };
+		B3DFE3BE26403AA40011F38B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFE3BD26403AA40011F38B /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3218D70263F18780036341A /* ps5ControllerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ps5ControllerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3218D73263F18780036341A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3218D75263F18780036341A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3218D77263F18780036341A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3218D7A263F18780036341A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3218D7C263F18790036341A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3218D7F263F18790036341A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3218D81263F18790036341A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DFE3B8264031F60011F38B /* ControllerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3DFE3B9264031F60011F38B /* ControllerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControllerCollectionViewCell.xib; sourceTree = "<group>"; };
+		B3DFE3BD26403AA40011F38B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3218D6D263F18780036341A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3218D67263F18780036341A = {
+			isa = PBXGroup;
+			children = (
+				B3218D72263F18780036341A /* ps5ControllerApp */,
+				B3218D71263F18780036341A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3218D71263F18780036341A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3218D70263F18780036341A /* ps5ControllerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3218D72263F18780036341A /* ps5ControllerApp */ = {
+			isa = PBXGroup;
+			children = (
+				B3218D73263F18780036341A /* AppDelegate.swift */,
+				B3218D75263F18780036341A /* SceneDelegate.swift */,
+				B3218D77263F18780036341A /* ViewController.swift */,
+				B3218D79263F18780036341A /* Main.storyboard */,
+				B3218D7C263F18790036341A /* Assets.xcassets */,
+				B3218D7E263F18790036341A /* LaunchScreen.storyboard */,
+				B3218D81263F18790036341A /* Info.plist */,
+				B3DFE3B8264031F60011F38B /* ControllerCollectionViewCell.swift */,
+				B3DFE3B9264031F60011F38B /* ControllerCollectionViewCell.xib */,
+				B3DFE3BD26403AA40011F38B /* Product.swift */,
+			);
+			path = ps5ControllerApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3218D6F263F18780036341A /* ps5ControllerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3218D84263F18790036341A /* Build configuration list for PBXNativeTarget "ps5ControllerApp" */;
+			buildPhases = (
+				B3218D6C263F18780036341A /* Sources */,
+				B3218D6D263F18780036341A /* Frameworks */,
+				B3218D6E263F18780036341A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ps5ControllerApp;
+			productName = ps5ControllerApp;
+			productReference = B3218D70263F18780036341A /* ps5ControllerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3218D68263F18780036341A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B3218D6F263F18780036341A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B3218D6B263F18780036341A /* Build configuration list for PBXProject "ps5ControllerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3218D67263F18780036341A;
+			productRefGroup = B3218D71263F18780036341A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3218D6F263F18780036341A /* ps5ControllerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3218D6E263F18780036341A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DFE3BB264031F60011F38B /* ControllerCollectionViewCell.xib in Resources */,
+				B3218D80263F18790036341A /* LaunchScreen.storyboard in Resources */,
+				B3218D7D263F18790036341A /* Assets.xcassets in Resources */,
+				B3218D7B263F18780036341A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3218D6C263F18780036341A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DFE3BA264031F60011F38B /* ControllerCollectionViewCell.swift in Sources */,
+				B3218D78263F18780036341A /* ViewController.swift in Sources */,
+				B3DFE3BE26403AA40011F38B /* Product.swift in Sources */,
+				B3218D74263F18780036341A /* AppDelegate.swift in Sources */,
+				B3218D76263F18780036341A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3218D79263F18780036341A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3218D7A263F18780036341A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3218D7E263F18790036341A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3218D7F263F18790036341A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3218D82263F18790036341A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3218D83263F18790036341A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3218D85263F18790036341A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4989YHW6GW;
+				INFOPLIST_FILE = ps5ControllerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ridvan.ps5ControllerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3218D86263F18790036341A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4989YHW6GW;
+				INFOPLIST_FILE = ps5ControllerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ridvan.ps5ControllerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3218D6B263F18780036341A /* Build configuration list for PBXProject "ps5ControllerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3218D82263F18790036341A /* Debug */,
+				B3218D83263F18790036341A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3218D84263F18790036341A /* Build configuration list for PBXNativeTarget "ps5ControllerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3218D85263F18790036341A /* Debug */,
+				B3218D86263F18790036341A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3218D68263F18780036341A /* Project object */;
+}
